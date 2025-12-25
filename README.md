@@ -24,29 +24,6 @@ Inputs / controls (mirrors the chip behavior):
 
 ---
 
-## Suggested repo layout
-
-```
-.
-├─ src/
-│  └─ counter.vhd
-├─ sim/
-│  └─ counter_forces.tcl
-├─ constraints/
-│  └─ counter.xdc
-├─ assets/
-│  ├─ schematic_and_project_summary.png
-│  ├─ hardware_after_load_and_clock.png
-│  ├─ hardware_after_aclr_active.png
-│  ├─ hardware_after_aload_active.png
-│  ├─ hardware_after_sload_and_clock.png
-│  ├─ postroute_from_datasheet.png
-│  ├─ postroute_oe_to_hiz_and_sync_clear_delay.png
-│  └─ postroute_sync_load_delay.png
-└─ report/
-   └─ ECE4525 Lab 8 Report.pdf
-```
-
 ---
 
 ## Schematic + implementation photos
